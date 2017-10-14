@@ -9,7 +9,7 @@ print color("white"), "              This is a sample tool that can Decrypt .msg
 print color("blue"), "              [!] Input Examples:\n";
 print "               1- 1.msg\n               * It must be on the same directory !!";
 DoItAgain:
-print color("yellow"), "\n\n[!] Enter the File Name Or Path --> ", color("reset");
+print color("yellow"), "\n\n[!] Enter the File Name --> ", color("reset");
 my $filename = <STDIN>;
 if ($filename =~ /\.msg$/i)
 {
